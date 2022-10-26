@@ -1,0 +1,18 @@
+.footer {
+    margin-top: 134px;
+    margin-bottom: 54px;
+}
+
+.social_networks_list {
+    justify-content: center;
+}
+
+.social_network:not(:last-child) {
+    margin-right: 35px;
+}
+
+.copyright {
+    margin-top: 26px;
+    text-align: center;
+    justify-content: center;
+}

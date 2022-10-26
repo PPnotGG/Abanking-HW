@@ -1,0 +1,17 @@
+.header {
+  padding: 0;
+  margin: 30px auto;
+  max-width: 1032px;
+  justify-content: right;
+}
+
+.page_link:not(:last-child) {
+  margin-right: 33px;
+}
+.page_link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: right;
+}/*# sourceMappingURL=header.css.map */

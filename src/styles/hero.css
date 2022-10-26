@@ -1,0 +1,41 @@
+.hero_content {
+  margin-top: 140px;
+  margin-bottom: 71px;
+  padding-top: 18px;
+  width: 856px;
+  justify-content: left;
+  flex-direction: column;
+  background-image: url("../img/Face_photo.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.hero_greetings_article {
+  margin-bottom: 40px;
+  width: 506px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  color: #21243D;
+}
+.hero_descr {
+  margin-bottom: 38px;
+  max-width: 497px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+.hero_download_btn {
+  padding: 10px 20px 10px;
+  border: 0;
+  max-width: 210px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+  background: #FF6464;
+  border-radius: 2px;
+}/*# sourceMappingURL=hero.css.map */
