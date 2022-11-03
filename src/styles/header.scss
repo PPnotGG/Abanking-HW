@@ -1,16 +1,22 @@
 .header {
+    display: flex;
     padding: 0;
     margin: 30px auto;
     max-width: 1032px;
     justify-content: right;
 }
 
-.page{
-    &_link:not(:last-child) {
+.nav{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &__link:not(:last-child) {
         margin-right: 33px;
     }
 
-    &_link {
+    &__link {
         font-style: normal;
         font-weight: 500;
         font-size: 20px;

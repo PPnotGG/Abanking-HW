@@ -3,15 +3,20 @@
   margin-bottom: 54px;
 }
 
-.social_networks_list {
+.social-networks__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
   justify-content: center;
+  list-style: none;
 }
 
-.social_network:not(:last-child) {
+.social-network:not(:last-child) {
   margin-right: 35px;
 }
 
 .copyright {
+  display: flex;
   margin-top: 26px;
   text-align: center;
   justify-content: center;

@@ -1,5 +1,10 @@
 .hero {
-    &_content{
+    max-width: 860px;
+    padding: 0;
+    margin: 0 auto;
+
+    &-content{
+        display: flex;
         margin-top: 140px;
         margin-bottom: 71px;
         padding-top: 18px;
@@ -11,7 +16,7 @@
         background-position: right top;
     }
 
-    &_greetings_article {
+    &__greetings {
         margin-bottom: 40px;
         
         width: 506px;
@@ -22,7 +27,7 @@
         color: #21243D;
     }
 
-    &_descr {
+    &__descr {
         margin-bottom: 38px;
         max-width: 497px;
         font-style: normal;
@@ -32,7 +37,7 @@
         color: #21243D;
     }
 
-    &_download_btn {
+    &__download-btn {
         padding: 10px 20px 10px;
         border: 0;
         max-width: 210px;
@@ -43,5 +48,6 @@
         color: #FFFFFF;
         background: #FF6464;
         border-radius: 2px;
+        cursor: pointer;
     }
 }

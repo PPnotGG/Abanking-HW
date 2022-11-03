@@ -1,4 +1,10 @@
-.hero_content {
+.hero {
+  max-width: 860px;
+  padding: 0;
+  margin: 0 auto;
+}
+.hero-content {
+  display: flex;
   margin-top: 140px;
   margin-bottom: 71px;
   padding-top: 18px;
@@ -9,7 +15,7 @@
   background-repeat: no-repeat;
   background-position: right top;
 }
-.hero_greetings_article {
+.hero__greetings {
   margin-bottom: 40px;
   width: 506px;
   font-style: normal;
@@ -18,7 +24,7 @@
   line-height: 60px;
   color: #21243D;
 }
-.hero_descr {
+.hero__descr {
   margin-bottom: 38px;
   max-width: 497px;
   font-style: normal;
@@ -27,7 +33,7 @@
   line-height: 24px;
   color: #21243D;
 }
-.hero_download_btn {
+.hero__download-btn {
   padding: 10px 20px 10px;
   border: 0;
   max-width: 210px;
@@ -38,4 +44,5 @@
   color: #FFFFFF;
   background: #FF6464;
   border-radius: 2px;
+  cursor: pointer;
 }/*# sourceMappingURL=hero.css.map */

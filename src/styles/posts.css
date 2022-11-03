@@ -1,30 +1,59 @@
 .posts {
   background-color: #EDF7FA;
+  padding: 0;
+  margin: 0 auto;
 }
-.posts_content {
+.posts-content {
   max-width: 860px;
   padding: 0;
   margin: 0 auto;
   padding-bottom: 32px;
 }
-.posts_section_upper_block {
+.posts__header {
+  display: flex;
   padding: 7px 0 2px;
   justify-content: space-between;
 }
+.posts__header__title {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+}
+.posts__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.posts__view-all-link {
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: right;
+  color: #00A8CC;
+}
 
-.post {
+.post__first {
+  padding: 24px 21px 28px 23px;
+  margin-right: 12px;
   width: 418px;
   background: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
   border-radius: 4px;
 }
-.post1 {
-  padding: 24px 21px 28px 23px;
-}
-.post2 {
+.post__second {
   padding: 24px 13px 28px 31px;
+  width: 418px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
 }
-.post_title {
+.post__title {
   margin-bottom: 27px;
   font-style: normal;
   font-weight: 700;
@@ -32,7 +61,7 @@
   line-height: 38px;
   color: #21243D;
 }
-.post_type {
+.post__type {
   margin-bottom: 18px;
   display: block;
   font-style: normal;
@@ -41,24 +70,11 @@
   line-height: 26px;
   color: #21243D;
 }
-.post_content {
+.post__note {
   margin-right: 6px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #21243D;
-}
-
-.post:not(:last-child) {
-  margin-right: 12px;
-}
-
-.view_all_link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 60px;
-  text-align: right;
-  color: #00A8CC;
 }/*# sourceMappingURL=posts.css.map */
