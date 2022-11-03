@@ -3,7 +3,7 @@
   margin-bottom: 54px;
 }
 
-.social-networks__list {
+.social-networks {
   display: flex;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@
   list-style: none;
 }
 
-.social-network:not(:last-child) {
+.social-networks__item:not(:last-child) {
   margin-right: 35px;
 }
 

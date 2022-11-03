@@ -38,20 +38,18 @@
   color: #00A8CC;
 }
 
-.post__first {
-  padding: 24px 21px 28px 23px;
-  margin-right: 12px;
+.post {
   width: 418px;
   background: #FFFFFF;
   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
   border-radius: 4px;
 }
+.post__first {
+  padding: 24px 21px 28px 23px;
+  margin-right: 12px;
+}
 .post__second {
   padding: 24px 13px 28px 31px;
-  width: 418px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
-  border-radius: 4px;
 }
 .post__title {
   margin-bottom: 27px;
